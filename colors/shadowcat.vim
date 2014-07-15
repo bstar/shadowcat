@@ -19,7 +19,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let colors_name="lucius"
+let colors_name="shadowcat"
 
 " Some other colors to save
 " blue: 3eb8e5
@@ -31,7 +31,7 @@ let colors_name="lucius"
 
 " Base color
 " ----------
-hi Normal           guifg=#7e7e7e           guibg=#101010
+hi Normal           guifg=#888888           guibg=#222222
 hi Normal           ctermfg=253             ctermbg=235
 
 
@@ -78,7 +78,7 @@ hi Function         ctermfg=216                                     cterm=none
 " ---------------
 " any statement
 " each do
-hi Statement        guifg=cyan                                   gui=none
+hi Statement        guifg=#8567e0                                   gui=none
 hi Statement        ctermfg=150                                     cterm=none
 " if, then, else
 hi Conditional      guifg=#6868A9                                   gui=none
@@ -210,10 +210,10 @@ hi Cursor           ctermfg=bg              ctermbg=153
 hi CursorIM         guifg=bg                guibg=#96cdcd
 hi CursorIM         ctermfg=bg              ctermbg=116
 " cursor column
-hi CursorColumn     guifg=NONE              guibg=#202438           gui=none
+hi CursorColumn     guifg=NONE              guibg=#222222           gui=none
 hi CursorColumn     ctermfg=NONE            ctermbg=236             cterm=none
 " cursor line/row
-hi CursorLine       gui=NONE                guibg=#202438           gui=none
+hi CursorLine       gui=NONE                guibg=#222222           gui=none
 hi CursorLine       cterm=NONE              ctermbg=236             cterm=none
 
 
@@ -229,10 +229,10 @@ hi ErrorMsg         ctermfg=196             ctermbg=NONE            cterm=none
 hi VertSplit        guifg=#333333           guibg=#333333           gui=none
 hi VertSplit        ctermfg=242             ctermbg=237             cterm=none
 " columns where signs are displayed (used in IDEs)
-hi SignColumn       guifg=#666666           guibg=#101010           gui=none
+hi SignColumn       guifg=#666666           guibg=#222222           gui=none
 hi SignColumn       ctermfg=145             ctermbg=233             cterm=none
 " line numbers
-hi LineNr           guifg=#444444           guibg=#191919
+hi LineNr           guifg=#444444           guibg=#222222
 hi LineNr           ctermfg=102             ctermbg=237
 " match parenthesis, brackets
 hi MatchParen       guifg=#eeeeee           guibg=NONE              gui=bold
@@ -244,7 +244,7 @@ hi MoreMsg          ctermfg=29                                      cterm=none
 hi ModeMsg          guifg=#6868A9           guibg=NONE              gui=none
 hi ModeMsg          ctermfg=117             ctermbg=NONE            cterm=none
 " the '~' and '@' and showbreak, '>' double wide char doesn't fit on line
-hi NonText          guifg=#101010                                   gui=none
+hi NonText          guifg=#222222                                   gui=none
 hi NonText          ctermfg=235                                     cterm=none
 " the hit-enter prompt (show more output) and yes/no questions
 hi Question         guifg=fg                                        gui=none
@@ -319,10 +319,10 @@ hi PMenuThumb                               ctermbg=102             cterm=none
 " Status Line
 " -----------
 " status line for current window
-hi StatusLine       guifg=#e0e0e0           guibg=#363946           gui=bold
+hi StatusLine       guifg=#e0e0e0           guibg=#333333           gui=bold
 hi StatusLine       ctermfg=254             ctermbg=237             cterm=bold
 " status line for non-current windows
-hi StatusLineNC     guifg=#767986           guibg=#363946           gui=none
+hi StatusLineNC     guifg=#767986           guibg=#333333           gui=none
 hi StatusLineNC     ctermfg=244             ctermbg=237             cterm=none
 
 
